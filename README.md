@@ -1,8 +1,28 @@
 # Accessibility Toolbar
 
-This extension adds a toolbar to your notebook with five separate accessibility tools. For a summary of the features
+This extension adds a toolbar to your notebook with five separate accessibility tools. This projecy focused on the digital accessibility of a Jupyter Notebook. We developed an Accessibility Toolbar extension that provides additional vital accessibility features to notebook users who are dyslexic or visually impaired. These features include the ability to make style changes to the notebook, use predefined themes, carry out some common tasks using voice control, spell check inputted text and plan out one’s work using a planner. This toolbar provides users with the tools necessary to use a Jupyter Notebook to its full potential.
+
+This project was created by @ednut15 @fabihaahmed @NorahAba @joshuazeltser @taohan16 as part of an MSc project at University College London. The original repo can be found at: https://github.com/uclixnjupyternbaccessibility/jupyter_contrib_nbextensions 
+
+For a summary of the features
 see: [Accessibility Toolbar](https://www.youtube.com/watch?v=8Nv3uosr8s4&t=7s)
-The makeup of these tools is as follows:
+
+## Install
+
+You can install with bower:
+`bower install --config.directory="$(jupyter --data-dir)/nbextensions" accessibility_toolbar`
+
+Or clone directly from this repository:
+`git clone https://github.com/uclixnjupyternbaccessibility/accessibility_toolbar.git`
+`jupyter nbextension install accessibility_toolbar/main`
+
+To enable the extension:
+`jupyter nbextension enable accessibility_toolbar`
+
+To disable the extension:
+`jupyter nbextension disable accessibility_toolbar`
+
+# Toolbar Summary
 
 ## Notebook Style Manager
 
