@@ -1,0 +1,22 @@
+{
+  "name": "accessibility_toolbar",
+  "authors": ["Joshua Zeltser <@joshuazeltser>", "Tao Han <@taohan16>", "Fabiha Ahmed <@fabihaahmed>", "Babatunde Adeola <@ednut15>", "Norah Aba Numay <@NorahAba>"],
+  "description": "accessibility toolbar for jupyter notebook",
+  "main": "main.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "jupyter",
+    "nbextension"
+  ],
+  "license": "BSD",
+  "homepage": "https://github.com/uclixnjupyternbaccessibility/accessibility_toolbar",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
