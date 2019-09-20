@@ -1,8 +1,8 @@
 # Accessibility Toolbar
 
-This extension adds a toolbar to your notebook with five separate accessibility tools. This projecy focused on the digital accessibility of a Jupyter Notebook. We developed an Accessibility Toolbar extension that provides additional vital accessibility features to notebook users who are dyslexic or visually impaired. These features include the ability to make style changes to the notebook, use predefined themes, carry out some common tasks using voice control, spell check inputted text and plan out one’s work using a planner. This toolbar provides users with the tools necessary to use a Jupyter Notebook to its full potential.
+This extension adds a toolbar to your notebook with five separate accessibility tools, focusing on support for users who are dyslexic or visually impaired. These features include the ability to make style changes to the notebook, use predefined themes, carry out some common tasks using voice control, spell check inputted text and plan out one’s work using a planner. This toolbar provides users with the tools necessary to use a Jupyter Notebook to its full potential.
 
-This project was created by @ednut15 @fabihaahmed @NorahAba @joshuazeltser @taohan16 as part of an MSc project at University College London. The original repo can be found at: https://github.com/uclixnjupyternbaccessibility/jupyter_contrib_nbextensions 
+This project was created by @ednut15 @fabihaahmed @NorahAba @joshuazeltser @taohan16 as part of an MSc project at University College London. The original repo can be found at: [Accessibility Toolbar Repository](https://github.com/uclixnjupyternbaccessibility/jupyter_contrib_nbextensions) 
 
 ## Features summary
 ![Notebook Style Manager](./images/summary.gif)
@@ -22,9 +22,9 @@ To enable the extension:
 To disable the extension:
 `jupyter nbextension disable accessibility_toolbar`
 
-# Toolbar Summary
+## Toolbar Summary
 
-## Notebook Style Manager
+### Notebook Style Manager
 
 - The aim of this extension is to provide the user with the tools to customise their notebook according to their own
   specifications.
@@ -34,7 +34,7 @@ To disable the extension:
   of saved page styles.
 - Feature summary can be found at: [Notebook Style Manager](https://youtu.be/8Butk1EhpSw)
 
-### Notes
+#### Notes
 
 - All of the styles are saved when refreshing the page into localStorage.
 - To create a predefined style choose your required styles, click on "Add new style", select a name and then
@@ -46,7 +46,7 @@ To disable the extension:
 
 ---
 
-## Spell Checker
+### Spell Checker
 
 - The aim of this extension is to provide spell checker functionality for all markdown cells in a notebook.
 - This feature includes the ability to be notify the user of spelling errors inline.
@@ -56,7 +56,7 @@ To disable the extension:
 - It is also possible to switch between bold or underlining notifications of spelling mistakes.
 - Feature summary can be found at: [Spell Checker](https://youtu.be/WfMLjviZlMc)
 
-### Notes
+#### Notes
 
 - The Spell Checker icon will turn green when it is enabled.
 - The Spell Checker only works on markdown and **NOT** on code.
@@ -64,7 +64,7 @@ To disable the extension:
 
 ---
 
-## Voice Control
+### Voice Control
 
 - The aim of this extension is to provide voice control support for some of the common actions on a Jupyter notebook.
 - Once enabled the toolbar will listen for any of these key actions and will then execute them.
@@ -84,7 +84,7 @@ To disable the extension:
   - Default Mode: Reverts the notebook to the default theme
 - Feature summary can be found at: [Voice Control](https://youtu.be/UepPF3ECV_s)
 
-###Notes
+#### Notes
 
 - The Voice Control feature is only supported on Chrome at the moment.
 - The Voice Control button will turn green when it is listening for a command.
@@ -92,7 +92,7 @@ To disable the extension:
 
 ---
 
-## Planner
+### Planner
 
 - The aim of the Planner is to provide a way for a user to plan out their notebook before and during its creation.
 - The Planner is a Mardown text editor that is displayed at the side of the page and is saved together with the
@@ -100,7 +100,7 @@ To disable the extension:
 - The Planner includes all of the standard Markdown features, with shortcuts to some of them as buttons at the top.
 - Feature summary can be found at: [Planner](https://youtu.be/smV4PZKINiM)
 
-###Notes
+#### Notes
 
 - The planner automatically saves every minute and can be manually saved using the "Save" button
 - There are various size options for images added to the planner:
@@ -116,7 +116,7 @@ To disable the extension:
 
 ![styles](./images/planner.png)
 
-## Accessible Themes
+### Accessible Themes
 
 - The aim of the accessible themes is to provide a high contract and dark theme mode for users depending on their
   preferences.
