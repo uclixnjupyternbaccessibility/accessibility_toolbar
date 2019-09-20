@@ -4,8 +4,8 @@ This extension adds a toolbar to your notebook with five separate accessibility 
 
 This project was created by @ednut15 @fabihaahmed @NorahAba @joshuazeltser @taohan16 as part of an MSc project at University College London. The original repo can be found at: https://github.com/uclixnjupyternbaccessibility/jupyter_contrib_nbextensions 
 
-For a summary of the features
-see: [Accessibility Toolbar](https://www.youtube.com/watch?v=8Nv3uosr8s4&t=7s)
+## Features summary
+![Notebook Style Manager](./images/summary.gif)
 
 ## Install
 
