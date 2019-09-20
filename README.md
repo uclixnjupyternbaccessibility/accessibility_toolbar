@@ -4,7 +4,9 @@ This extension adds a toolbar to your notebook with five separate accessibility 
 
 This project was created by @ednut15 @fabihaahmed @NorahAba @joshuazeltser @taohan16 as part of an MSc project at University College London. The original repo can be found at: [Accessibility Toolbar Repository](https://github.com/uclixnjupyternbaccessibility/jupyter_contrib_nbextensions) 
 
-![Notebook Style Manager](./images/summary.gif)
+<p align="center">
+  <img width="900" src="./images/summary.gif">
+</p>
 
 ## Install
 
@@ -53,7 +55,9 @@ jupyter nbextension disable accessibility_toolbar
 - Beware when selecting "Default style" option as this will wipe any style changes not saved as a predefined
   style.
 
-![styles](./images/styles.png)
+<p align="center">
+  <img src="./images/styles.png">
+</p>
 
 ---
 
@@ -71,7 +75,10 @@ jupyter nbextension disable accessibility_toolbar
 
 - The Spell Checker icon will turn green when it is enabled.
 - The Spell Checker only works on markdown and **NOT** on code.
-  ![styles](./images/spellchecker.png)
+  
+  <p align="center">
+  <img src="./images/spellchecker.png">
+</p>
 
 ---
 
@@ -99,7 +106,10 @@ jupyter nbextension disable accessibility_toolbar
 
 - The Voice Control feature is only supported on Chrome at the moment.
 - The Voice Control button will turn green when it is listening for a command.
-  ![styles](./images/voice.png)
+
+  <p align="center">
+  <img src="./images/voice.png">
+</p>
 
 ---
 
@@ -125,7 +135,9 @@ jupyter nbextension disable accessibility_toolbar
   - 90% width: imagewidth=planner-90
   - 100% width: imagewidth=planner-100
 
-![styles](./images/planner.png)
+<p align="center">
+  <img src="./images/planner.png">
+</p>
 
 ### Accessible Themes
 
@@ -134,5 +146,10 @@ jupyter nbextension disable accessibility_toolbar
 - The themes can be easily toggled from the menu provided.
 - Feature summary can be found at: [Themes](https://youtu.be/EbC200P6KwM)
 
-  ![styles](./images/darkmode.png)
-  ![styles](./images/contrastmode.png)
+  <p align="center">
+  <img src="./images/darkmode.png">
+</p>
+
+  <p align="center">
+  <img src="./images/contrastmode.png">
+</p>
