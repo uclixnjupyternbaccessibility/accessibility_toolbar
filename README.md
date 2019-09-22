@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/msjupyter/msjupyter/_apis/build/status/uclixnjupyternbaccessibility.jupyter_contrib_nbextensions?branchName=master)](https://dev.azure.com/msjupyter/msjupyter/_build/latest?definitionId=4&branchName=master)
 # Accessibility Toolbar (AT4N)
 
 This extension adds a toolbar to your notebook with five separate accessibility tools, focusing on support for users who are dyslexic or visually impaired. These features include the ability to make style changes to the notebook, use predefined themes, carry out some common tasks using voice control, spell check inputted text and plan out one’s work using a planner. This toolbar provides users with the tools necessary to use a Jupyter Notebook to its full potential.
