@@ -21,19 +21,19 @@ Or clone directly from this repository:
 
 ```bash
 git clone https://github.com/uclixnjupyternbaccessibility/accessibility_toolbar.git
-jupyter nbextension install accessibility_toolbar/main
+jupyter nbextension install accessibility_toolbar
 ```
 
 To enable the extension:
 
 ```bash
-jupyter nbextension enable accessibility_toolbar
+jupyter nbextension enable accessibility_toolbar/main
 ```
 
 To disable the extension:
 
 ```bash
-jupyter nbextension disable accessibility_toolbar
+jupyter nbextension disable accessibility_toolbar/main
 ```
 
 ## Toolbar Summary
